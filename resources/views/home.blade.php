@@ -10,7 +10,7 @@
                 <p class="banner-content__subtitle">ONLINE CASINO GAME SUPPORTED BY GPT-4 - OPEN AI</p>
                 <div class="button-wrapper">
                     <a href="https://pancakeswap.finance/swap" class="cmn--btn active btn--lg"><i class="las la-play"></i> BUY NOW</a>
-                    <a href="https://t.me/" class="cmn--btn btn--lg">TELEGRAM GROUP</a>
+                    <a href="https://t.me/CasinoGPT4" class="cmn--btn btn--lg">TELEGRAM GROUP</a>
                 </div>
                 <img src="{{ asset('images/banner/card.png') }}" alt="" class="shape1">
             </div>
