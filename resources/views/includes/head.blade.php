@@ -1,38 +1,24 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="AI ERUDEX | MACHINE LEARNING">
-<meta name="keywords" content="ai, erudex, smartchain, machinelearning, blockchain, cryptocurrency, bsc">
-<meta name="author" content="ERUDEX">
+<meta name="description" content="CASINO GPT4 | BEST AI FOR GAMBLING">
+<meta name="keywords" content="ai, casino, gambling, casinogpt4, gpt4, smartchain, machinelearning, blockchain, cryptocurrency, bsc">
+<meta name="author" content="CASINOGPT4">
 
-<title>AI ERUDEX | MACHINE LEARNING</title>
-<link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}" sizes="16x16">
+<title>CASINO GPT4 | BEST AI FOR GAMBLING</title>
+<link rel="icon" type="image/x-icon" href="{{ asset('images/casino.png') }}" sizes="16x16">
 
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700" rel="stylesheet">
+<!-- bootstrap 5  -->
+<link rel="stylesheet" href="{{ asset('css/lib/bootstrap.min.css') }}">
+<!-- Icon Link  -->
+<link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/line-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lib/animate.css') }}">
 
-<link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+<!-- Plugin Link -->
+<link rel="stylesheet" href="{{ asset('css/lib/slick.css') }}">
 
-<!-- bootstrap css -->
-<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css" media="all" />
-<!-- animate css -->
-<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" type="text/css" media="all" />
-<!-- owl carousel css -->
-<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}"  type="text/css" media="all" />
-<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}"  type="text/css" media="all" />
-<!-- meanmenu css -->
-<link rel="stylesheet" href="{{ asset('css/meanmenu.min.css') }}" type="text/css" media="all" />
-<!-- magnific popup css -->
-<link rel="stylesheet" href="{{ asset('css/magnific-popup.min.css') }}" type="text/css" media="all" />
-<!-- boxicons css -->
-<link rel='stylesheet' href="{{ asset('css/icofont.min.css') }}" type="text/css" media="all" />
-<!-- flaticon css -->
-<link rel='stylesheet' href="{{ asset('css/flaticon.css') }}" type="text/css" media="all" />
-<!-- nice select css -->
-<link rel="stylesheet" href="{{ asset('css/nice-select.css') }}" type="text/css" media="all" />
-<!-- style css -->
-<link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
-<!-- responsive css -->
-<link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
+<!-- Main css -->
+<link rel="stylesheet" href="{{ asset('css/main.css') }}">

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en-US" class="no-js no-svg">
+<html lang="en-US">
   <head>
      @include('includes.head')
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-offset="170" data-bs-target=".privacy-policy-sidebar-menu">
      <header class="row">
          @include('includes.header')
      </header>

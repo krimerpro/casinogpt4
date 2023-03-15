@@ -1,332 +1,294 @@
 @extends('layouts.default')
 @section('content')
 
-<!-- Feature-section -->
-<div class="feature-section pb-70 section-to-header">
+<!-- Banner Section Starts Here -->
+<section class="banner-section bg_img overflow-hidden" style="background:url({{ asset('images/banner/bg.png') }}) center">
     <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-green">
-                                <i class="flaticon-machine-learning-1"></i>
-                            </div>
-                            <span>Low Tax</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Tax Buy & Sell</p>
-                        </div>
-                    </div>
+        <div class="banner-wrapper d-flex flex-wrap align-items-center">
+            <div class="banner-content">
+                <h1 class="banner-content__title">Play <span class="text--base">CASINO GPT4</span> & Win Money Unlimited</h1>
+                <p class="banner-content__subtitle">ONLINE CASINO GAME SUPPORTED BY GPT-4 - OPEN AI</p>
+                <div class="button-wrapper">
+                    <a href="https://pancakeswap.finance/swap" class="cmn--btn active btn--lg"><i class="las la-play"></i> BUY NOW</a>
+                    <a href="https://t.me/" class="cmn--btn btn--lg">TELEGRAM GROUP</a>
                 </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-yellow">
-                                <i class="flaticon-voice-recognition"></i>
-                            </div>
-                            <span>Anti Whale & Dump</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>4% Max Wallet & Transaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-blue">
-                                <i class="flaticon-machine-learning"></i>
-                            </div>
-                            <span>Low of Supply</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>50.000.000 $Erudex Tokens</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-violet">
-                                <i class="flaticon-processor"></i>
-                            </div>
-                            <span>Initial Liquidity</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>2 BNB for Liquidity</p>
-                        </div>
-                    </div>
-                </div>
+                <img src="{{ asset('images/banner/card.png') }}" alt="" class="shape1">
+            </div>
+            <div class="banner-thumb">
+                <img src="{{ asset('images/banner/thumb.png') }}" alt="banner">
             </div>
         </div>
     </div>
-</div>
-<!-- Feature-section -->
-<!-- About-section -->
-<section class="about-section bg-off-white pt-100 pb-70" id="about">
+</section>
+<!-- Banner Section Ends Here -->
+
+
+<!-- About Section Starts Here -->
+<section id="about" class="about-section padding-top padding-bottom overflow-hidden">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-image text-center">
-                    <img src="{{ asset('images/feature-shape/feature-shape-1.png') }}" alt="shape">
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2 class="section-header__title">About The Casino</h2>
+                        <p>A casino is a facility for certain types of gambling. Casinos are often built near or combined with hotels, resorts, restaurants, retail shopping, cruise ships, and other tourist attractions. Some casinos are also known for hosting live entertainment, such as stand-up comedy, concerts, and sports.</p>
+                    </div>
+                    <a href="#" class="cmn--btn active">Know More</a>
                 </div>
             </div>
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-details">
-                    <div class="section-title section-title-left text-start">
-                        <small>About Us</small>
-                        <h2>Mission Is To Bring The Power Of Erudex AI To Every Business</h2>
-                    </div>
-                    <div class="about-content">
-                        <ul>
-                            <li>Advance Advisory Team</li>
-                            <li>Advance Quality Experts</li>
-                            <li>Many variations of passages</li>
-                            <li>High-Quality Results</li>
-                        </ul>
-                        <a href="#" class="btn main-btn">About Us</a>
-                    </div>
+            <div class="col-lg-6">
+                <div class="aobut-thumb section-thumb">
+                    <img src="{{ asset('images/about/thumb.png') }}" alt="about" class="ms-lg-5">
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- About-section -->
-<!-- Service-section -->
-<section class="service-section pt-100 pb-70" id="services">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <small>Services</small>
-            <h2>Our Purpose Is To Deliver Excellence <br> In Service And Execution</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-automation"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Robotic Automation</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-predictive-chart"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Predictive Analytics</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-deep-learning"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Deep Learning</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-data-mining"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Data Mining</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-diagram"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Statistical Modeling</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-machine-learning-2"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Security & Surveillance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="shapes">
+        <img src="{{ asset('images/about/shape.png') }}" alt="about" class="shape shape1">
     </div>
 </section>
-<!-- Service-section -->
-<!-- Choose-section -->
-<section class="choose-section pt-100 pb-70 bg-off-white">
-    <div class="container">
-        <div class="section-title">
-            <small>Why Choose Us</small>
-            <h2>Why People Choose Erudex For ML Services</h2>
-        </div>
-        <div class="process-content">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-four.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Easy Model Building</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-five.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Robust ML Production Anywhere</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-six.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Powerful Experimentation</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Choose-section -->
+<!-- About Section Ends Here -->
 
-<!-- Project-section -->
-<section class="project-section pt-min-100 pb-100 bg-off-white" id="projects">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Erudex's Projects In Different Domain Of Industry</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence in service.</p>
-        </div>
-    </div>
-    <div class="container-fluid p-md-0">
-        <div class="project-carousel owl-carousel owl-theme default-carousel">
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-1.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Drone And Robot Training</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-3.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Data Mining Revolution</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-2.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Automatic Project Management</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Project-section -->
 
-<!-- News-section -->
-<section class="news-section pt-min-100 pb-70" id="news">
+<section class="padding-top padding-bottom" id="game">
     <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Upcoming News on Erudex AI</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</p>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-header text-center">
+                    <h2 class="section-header__title">UPCOMING GAME</h2>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-1.jpg') }}" alt="blog">
-                        </a>
+
+        <div class="row gy-5">
+            <div class="col-lg-6">
+                <div class="game-details-left">
+                    <div id="coin-flip-cont">
+                        <div class="coins-wrapper">
+                            <div class="front"><img src="{{ asset('images/game/head.png') }}" alt="game"></div>
+                            <div class="back"><img src="{{ asset('images/game/tail.png') }}" alt="game"></div>
+                        </div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Technology</div>
-                        <h3><a href="#">Is Machine Learning Right Going On Good Way</a></h3>
+                    <div class="cd-ft"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="game-details-right">
+                    <form id="game" novalidate="novalidate">
+                        <h3 class="mb-4 text-center">Current Balance : <span class="base--color"><span class="bal">0</span> $CASINO</span></h3>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <input type="text" name="invest" class="form-control form--control amount-field" placeholder="Enter amount">
+                                <span class="input-group-text text-white bg--base" id="basic-addon2">CASINO</span>
+                            </div>
+                            <small class="form-text text-muted"><i class="fas fa-info-circle mr-2"></i>Minimum: 1 $CASINO | <span class="text-warning">Win Amount  1  %</span></small>
+                        </div>
+                        <div class="form-group mt-4 mt-sm-5 justify-content-center d-flex flex-wrap justify-content-between">
+                            <div class="single-select head gmimg active">
+                                <img src="{{ asset('images/game/head.png') }}" alt="game-image">
+                            </div>
+                            <div class="single-select tail gmimg">
+                                <img src="{{ asset('images/game/tail.png') }}" alt="game-image">
+                            </div>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <button type="submit" class="cmn--btn active w-100 text-center" disabled>Play Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Why Choose Us Section Starts Here -->
+<section class="why-section padding-top padding-bottom overflow-hidden" id="features">
+    <div class="container">
+        <div class="row justify-content-between gy-5">
+            <div class="col-lg-5 col-xl-4">
+                <div class="section-header mb-4">
+                    <h2 class="section-header__title">Why Play Our Casino</h2>
+                    <p>With Smart AI - GPT-4, you will play more efficient and win more money</p>
+                </div>
+            </div>
+            <div class="col-lg-7 col-xl-7">
+                <div class="row gy-4 gy-md-5 gy-lg-4 gy-xl-5">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="why-item">
+                            <div class="why-item__thumb">
+                                <i class="las la-shield-alt"></i>
+                            </div>
+                            <div class="why-item__content">
+                                <h4 class="title">Secure Casino Games</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="why-item">
+                            <div class="why-item__thumb">
+                                <i class="las la-dice-six"></i>
+                            </div>
+                            <div class="why-item__content">
+                                <h4 class="title">Awesome Game State</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="why-item">
+                            <div class="why-item__thumb">
+                                <i class="las la-trophy"></i>
+                            </div>
+                            <div class="why-item__content">
+                                <h4 class="title">Higher Wining Chance</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="why-item">
+                            <div class="why-item__thumb">
+                                <i class="las la-coins"></i>
+                            </div>
+                            <div class="why-item__content">
+                                <h4 class="title">Invest Win And Earn</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-2.jpg') }}" alt="blog">
-                        </a>
+        </div>
+    </div>
+    <div class="shapes">
+        <img src="{{ asset('images/why/shape.png') }}" alt="why" class="shape shape1">
+    </div>
+</section>
+<!-- Why Choose Us Section Ends Here -->
+
+
+<!-- How Section Starts Here -->
+<section class="how-section padding-top padding-bottom bg_img" style="background: url({{ asset('images/how/bg2.jpg') }});" id="howtoplay">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-header text-center">
+                    <h2 class="section-header__title">How to Play Game</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="how-item">
+                    <div class="how-item__thumb">
+                        <i class="las la-user-plus"></i>
+                        <div class="badge badge--lg badge--round radius-50">01</div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Robot</div>
-                        <h3><a href="#">The Current State Of Artificial Intelligence Infographic</a></h3>
+                    <div class="how-item__content">
+                        <h4 class="title">Sign Up First & Login</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="single-blog.html">
-                            <img src="{{ asset('images/blogs/blog-3.jpg') }}" alt="blog">
-                        </a>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="how-item">
+                    <div class="how-item__thumb">
+                        <i class="las la-id-card"></i>
+                        <div class="badge badge--lg badge--round radius-50">02</div>
                     </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Machine</div>
-                        <h3><a href="#">Our Company As A Global Leader In Big Data</a></h3>
+                    <div class="how-item__content">
+                        <h4 class="title">Complete you Profile</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="how-item">
+                    <div class="how-item__thumb">
+                        <i class="las la-dice"></i>
+                        <div class="badge badge--lg badge--round radius-50">03</div>
+                    </div>
+                    <div class="how-item__content">
+                        <h4 class="title">Choose a Game & Play</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- News-section -->
-<!-- Newsletter-section -->
-<section class="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
-    <div class="container position-relative">
-        <div class="section-title section-title-white">
-            <h2>Subscribe For Erudex's Newsletter</h2>
-            <p>Subscribe to our newsletter & stay updated</p>
-        </div>
-        <form class="newsletter-form">
-            <div class="form-group m-0 newsletter-form">
-                <input type="text" name="EMAIL" id="emails" class="form-control" placeholder="Enter Address*" required>
-                <button class="btn main-btn" type="submit">Subscribe</button>
+<!-- How Section Ends Here -->
+
+
+<!-- Faq Section Starts Here -->
+<section class="faq-section padding-top padding-bottom overflow-hidden" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-xl-6">
+                <div class="section-header text-center">
+                    <h2 class="section-header__title">Frequently Asked Questions</h2>
+                    <p>A casino is a facility for certain types of gambling. Casinos are often built combined with hotels, resorts.</p>
+                </div>
             </div>
-            <div id="validator-newsletter" class="form-result"></div>
-        </form>
+        </div>
+        <div class="faq-wrapper row justify-content-between">
+            <div class="col-lg-6">
+                <div class="faq-item">
+                    <div class="faq-item__title">
+                        <h5 class="title">01. What is Cryptocurrency ?</h5>
+                    </div>
+                    <div class="faq-item__content">
+                        <p>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__title">
+                        <h5 class="title">03. What is Pancakeswap ?</h5>
+                    </div>
+                    <div class="faq-item__content">
+                        <p>PancakeSwap is a decentralized exchange native to BNB Chain. In other words, it shares some similarities with established platforms like UniSwap in that users can swap their coins for other coins without the input of middleman services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="faq-item">
+                    <div class="faq-item__title">
+                        <h5 class="title">02. What is BNB Chain ?</h5>
+                    </div>
+                    <div class="faq-item__content">
+                        <p>The Binance Smart Chain (BSC) is now the BNB Chain. BSC, crypto exchange Binance’s layer-1 blockchain, recently announced the merger of the Binance Smart Chain and the Binance Chain to form the BNB Chain. </p>
+                    </div>
+                </div>
+                <div class="faq-item mb-2 mb-lg-0">
+                    <div class="faq-item__title">
+                        <h5 class="title">04. Any Risk on Gambling ?</h5>
+                    </div>
+                    <div class="faq-item__content">
+                        <p>Mental health issues. People who gamble compulsively often have substance misuse problems, personality disorders, depression or anxiety.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shapes">
+        <img src="{{ asset('images/faq/shape.png') }}" alt="faq" class="shape shape1">
     </div>
 </section>
-<!-- Newsletter-section -->
+<!-- Faq Section Ends Here -->
+
+
+<!-- Top Investor & Winner Section Starts Here -->
+<section class="top-section padding-top padding-bottom bg_img" style="background:url({{ asset('images/top/bg.png') }}) center">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-12">
+                <div class="cla-wrapper text-center">
+                    <h3 class="title mb-4">WIN !!! & <br> Get million dollars</h3>
+                    <a href="#" class="cmn--btn active btn--md radius-0">COMING SOON</a>
+                    <div class="thumb">
+                        <img src="{{ asset('images/top/bg2.png') }}" alt="top">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Top Investor & Winner Section Ends Here -->
+
 @stop
