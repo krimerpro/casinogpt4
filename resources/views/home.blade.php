@@ -30,10 +30,64 @@
             <div class="col-lg-6">
                 <div class="about-content">
                     <div class="section-header">
-                        <h2 class="section-header__title">About The Casino</h2>
+                        <h2 class="section-header__title">About CASINO GPT4</h2>
                         <p>A casino is a facility for certain types of gambling. Casinos are often built near or combined with hotels, resorts, restaurants, retail shopping, cruise ships, and other tourist attractions. Some casinos are also known for hosting live entertainment, such as stand-up comedy, concerts, and sports.</p>
                     </div>
-                    <a href="#" class="cmn--btn active">Know More</a>
+                </div>
+
+                <div class="faq-wrapper row justify-content-between">
+                    <div class="col-lg-12">
+                        <div class="faq-item">
+                            <div class="faq-item__title">
+                                <h5 class="title">01. Better Customer Support</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>Good customer support is largely a vital cornerstone for any business and service. The key aspect of that is how fast and helpful the response is.</p>
+                                <p>AI virtual assistance has been advancing rapidly. It is known for providing online customer care that is fast, spontaneous, and effective. These days it mainly comes in the form of help bots and smart chat boxes.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item__title">
+                                <h5 class="title">02. A More Agreeable Inclusive Experience</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>One more helpful use of AI is that it can be used as a sort of “manager” for any online process, running in the background and confirming everything continues to be efficient. This translates into a more enjoyable experience for the user, particularly in terms of ease of use. For instance, in receiving customer support, and also creating and accessing accounts and profiles, navigating sites, playing games, and furthermore.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item__title">
+                                <h5 class="title">03. A Support For Sports Betting</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>Sports betting has become more and more widespread in recent years. This is catching up to real money online casino games as a favored choice of gambling entertainment around the world speedily.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item mb-2 mb-lg-0">
+                            <div class="faq-item__title">
+                                <h5 class="title">04. Better Marketing</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>Analytics and good marketing to improve user experience constantly besides the casino profits of course. Whether concerning consumer requirements, generating profit, or both, every major company and business nowadays, fully recognizes the significance of demographic data.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-item__title">
+                                <h5 class="title">05. Cheat Proofing and Leveling the Playing Field</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>AI speedily recognizes and removes a cheating scheme. Fraud prevention is exceedingly essential in online gambling.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item mb-2 mb-lg-0">
+                            <div class="faq-item__title">
+                                <h5 class="title">06. Better Security</h5>
+                            </div>
+                            <div class="faq-item__content">
+                                <p>AI is well in use when it comes to most live casino scrutiny systems. Most importantly, keeping track of the casino-goers, and helping to identify banned players and other potential agitators, using the technology of facial recognition with immediate access to casino records and databases.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
