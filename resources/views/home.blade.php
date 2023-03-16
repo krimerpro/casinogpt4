@@ -10,7 +10,7 @@
                 <p class="banner-content__subtitle">ONLINE CASINO GAME SUPPORTED BY GPT-4 - OPEN AI</p>
                 <div class="button-wrapper">
                     <a href="https://t.me/CasinoGPT4" class="cmn--btn active btn--lg"><i class="las la-play"></i> JOIN US</a>
-                    <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="cmn--btn btn--lg">CHART</a>
+                    <a href="https://poocoin.app/tokens/" class="cmn--btn btn--lg">CHART</a>
                 </div>
                 <img src="{{ asset('images/banner/card.png') }}" alt="" class="shape1">
             </div>
@@ -234,10 +234,10 @@
                 <div class="how-item">
                     <div class="how-item__thumb">
                         <i class="las la-money-bill-wave"></i>
-                        <div class="badge badge--lg badge--round radius-50">5%</div>
+                        <div class="badge badge--lg badge--round radius-50">2%</div>
                     </div>
                     <div class="how-item__content">
-                        <h4 class="title">5% Tax</h4>
+                        <h4 class="title">2% Tax</h4>
                     </div>
                 </div>
             </div>
@@ -292,10 +292,10 @@
                 </div>
                 <div class="faq-item">
                     <div class="faq-item__title">
-                        <h5 class="title">03. What is Uniswap ?</h5>
+                        <h5 class="title">03. What is Pancakeswap ?</h5>
                     </div>
                     <div class="faq-item__content">
-                        <p>Uniswap is a completely different type of exchange that‘s fully decentralized – meaning it isn’t owned and operated by a single entity – and uses a relatively new type of trading model called an automated liquidity protocol</p>
+                        <p>PancakeSwap is a decentralized exchange native to BNB Chain. In other words, it shares some similarities with established platforms like UniSwap in that users can swap their coins for other coins without the input of middleman services.</p>
                     </div>
                 </div>
             </div>
@@ -303,10 +303,10 @@
             <div class="col-lg-6">
                 <div class="faq-item">
                     <div class="faq-item__title">
-                        <h5 class="title">02. What is Ethereum ?</h5>
+                        <h5 class="title">02. What is BNB Chain ?</h5>
                     </div>
                     <div class="faq-item__content">
-                        <p>Ethereum is a technology that's home to digital money, global payments, and applications. The community has built a booming digital economy, bold new ways for creators to earn online, and so much more. It's open to everyone, wherever you are in the world – all you need is the internet.</p>
+                        <p>The Binance Smart Chain (BSC) is now the BNB Chain. BSC, crypto exchange Binance’s layer-1 blockchain, recently announced the merger of the Binance Smart Chain and the Binance Chain to form the BNB Chain. </p>
                     </div>
                 </div>
                 <div class="faq-item mb-2 mb-lg-0">
