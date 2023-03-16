@@ -40,7 +40,7 @@
                 <a href="#features">Features</a>
             </li>
             <li>
-                <a href="#howtoplay">How to Play</a>
+                <a href="#tokenomic">Tokenomic</a>
             </li>
             <li>
                 <a href="#faq">Faq</a>

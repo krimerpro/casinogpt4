@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="CASINO GPT4 | BEST AI FOR GAMBLING">
-<meta name="keywords" content="ai, casino, gambling, casinogpt4, gpt4, smartchain, machinelearning, blockchain, cryptocurrency, bsc">
+<meta name="keywords" content="ai, casino, gambling, casinogpt4, gpt4, ethereum, machinelearning, blockchain, cryptocurrency, erc20">
 <meta name="author" content="CASINOGPT4">
 
 <title>CASINO GPT4 | BEST AI FOR GAMBLING</title>
